@@ -10,20 +10,27 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataService } from './data/data.service';
 import { AuthService } from './auth.service';
+import { PostDialogComponent } from './post-dialog/post-dialog.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    PostDialogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
+  ],
+  entryComponents: [
+    PostDialogComponent
   ],
   providers: [DataService, AuthService],
   bootstrap: [AppComponent]

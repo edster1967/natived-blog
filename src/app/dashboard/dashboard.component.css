@@ -17,3 +17,11 @@
 a {
     cursor: pointer;
 }
+
+.mat-icon {
+    padding-right: 10px;
+}
+
+.add-post {
+    margin: auto !important;
+}

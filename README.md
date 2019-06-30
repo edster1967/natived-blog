@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.1.
 
+So I found alot of examples online don't have a good use of the navigation using Angular Material. I specifically ran into issues on trying to get other nav bars working in mobile. This example explains how to use the naviation working for mobile view. 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

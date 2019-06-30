@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 So I found alot of examples online don't have a good use of the navigation using Angular Material. I specifically ran into issues on trying to get other nav bars working in mobile. This example explains how to use the naviation working for mobile view. 
 
+For the authentication I am using Auth0. It's a free authentication service. You can vget the information here - https://auth0.com/
+
 
 ## Development server
 
